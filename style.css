@@ -1,0 +1,239 @@
+body{
+   width: 80%;
+   
+   background-image: url("pictures/background\ pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-image:  linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+a,a:hover {
+   text-decoration: none;
+   color: #000;}
+  
+
+.list{
+   margin: 40px;
+   color: darkslategray;
+   cursor: pointer;
+}
+
+.list-item {
+   list-style: none;
+
+}
+
+
+.logo img{
+   width: 40px;
+   height: 40px;
+   margin-top: 40px;
+   margin-right: 55px;}
+
+.active{color: deeppink!important;}
+.banner{width: 80%;
+   height: 70%;
+   top: 25%;
+   left: 130px;
+   position: absolute;
+   color: rgb(0, 0, 0);
+   margin-left: 10%;
+}
+.app-text{
+   width: 40%;
+   float: left;
+}
+.app-text h1{
+   font-size: 50px;
+   width: 640px;
+   position: relative;
+   margin-left: 40px;
+}
+.app-text p{
+width: 650px;
+font-size: 25px;
+margin: 30px 0 3px 40px;
+line-height: 35px;
+}
+
+.sarah img {top: 40px;
+    margin: right;
+   position: absolute;
+   right:20px;
+   background: url(/pictures/sarah.jpg) no-repeat;
+   width:300px;
+   -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+   transform: rotate(-90deg);
+}  
+
+.submit-btn {
+   display: block;
+   width: 10%;
+   border: none;
+   background-color: #6fe2e2;
+   padding: 14px 28px;
+   font-size: 16px;
+   cursor: pointer;
+   text-align: center;
+
+ }
+   
+
+.profile {
+   background: #6fe2e2;
+   border-radius: 4px;
+   text-align: center;
+}
+
+.profile > a {
+   text-decoration: none; 
+}
+.about ul {
+   display: inline-flex;
+   margin: 30px;
+   }
+.menu{
+      display: flex;
+      padding: 20px;
+      align-items: center;
+   }
+   .menu-item{
+      height: 40px;
+      
+   }
+     
+.new-about{margin: 40px;
+       }
+.container{ 
+      width: 80%;
+      height: 70px;
+      top:25%;
+      left: 130px;
+      position: absolute;
+      color: rgb(10, 10, 10);
+  }
+
+.text{
+      width: 50%;
+      margin-left: 50px;
+}
+.text h1{
+   font-size: 70px;
+   width: 640px;
+   position: relative;
+   margin-left: 70px;
+}
+.text p{ 
+     width: 680px;
+     font-size: 25px;
+     margin: 30px 0 30px 70px;
+     line-height: 30px;
+
+ }
+ .pixx {
+    padding: 20px
+ }
+.pixx img{
+   width: 400px;
+   margin: 0px 30px;
+   position: relative;
+   background-position: 50% 50%;
+}
+.fa{  
+   margin: 20px;
+   height: auto;
+   cursor: pointer;
+   font: 100; 
+   font-size: 50px;
+   right: 50%;
+}
+
+*{margin:0;
+   padding: 0;
+   outline:none;
+   box-sizing: border-box;}
+ 
+body{width: 100%;
+   height: 100vh;
+   background-image: url("pictures/background\ pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-size: 30px;
+}
+
+.wrapper{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);}
+
+.contact-me{
+   width: 100%;
+   max-width: 500px;
+   height: auto;
+   padding: 40px 50px;
+   border-radius: 5px;
+}
+
+.title{
+   font-size: 1.5em;
+   line-height: 1.3em;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 900;
+   letter-spacing: 2px;
+   color: black;
+   padding-bottom: 10px;
+}
+.input-fields{
+   padding:0 12px;
+}
+
+.input-fields .items{
+   width: 100%;
+   padding-bottom: 12px;
+
+
+}
+.input-fields .items.label{
+   display: block;
+   font-size: 1em;
+   color: black;
+   text-transform: capitalize;
+   padding-bottom: 4px;
+}
+.input-fields .items .input,
+.input-fields .items .text-area{
+   background: transparent;
+   border: 0;
+   border: 1px solid #ffecb3;
+   width: 100%;
+   padding: 8px 10px;
+   font-size: 1em;
+   color: #363533;
+   border-radius: 2px;
+}
+
+.btn{
+   margin: 0 30px;
+   background: rgb(220, 231, 61);
+   color: black;
+   text-align: center;
+   padding: 10px 0;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   border-radius: 5px;
+   cursor: pointer;
+   letter-spacing: 3px;
+}
+
+.items #msg{
+   height: 100px;
+}
+
